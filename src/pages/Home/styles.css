@@ -1,0 +1,72 @@
+.buttonPesquisar {
+  background-color: #6D2080; 
+  color: white; 
+  border-radius: 4px;
+  border-style: none;
+  height: 2.1rem;
+  width: 8rem;
+  font-size: 1.2rem;
+  margin-right: 3rem;
+  margin-top: 16px;
+  cursor: pointer;
+}
+
+.mainHome {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 5rem;
+  margin-bottom: 1rem;
+}
+
+select {
+  border-style: none;
+  padding: 8px;
+  width: 20rem;
+}
+
+.main-bandeiras div {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.main-bandeiras div a {
+  max-width: 25%;
+  margin: 5px 15px;
+}
+
+.bandeiras {
+  width: 100%;
+  border: 1px solid black;
+}
+
+@media (max-width: 700px) {
+  .mainHome {
+    display: flex;
+    flex-direction: column;
+  }
+  .buttonPesquisar {
+    margin-right: 0;
+  }
+  select {
+    width: 40vh;
+  }
+  .main-bandeiras div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main-bandeiras div a {
+    max-width: 100%;
+    margin: 5px 15px;
+  }
+  
+  .bandeiras {
+    width: 100%;
+    border: 1px solid black;
+  }
+}

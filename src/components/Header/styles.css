@@ -1,0 +1,38 @@
+header {
+  width: 100%;
+  height: 6rem;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0px 0px 3px 0.5px rgb(59, 58, 58);
+}
+
+.logo{
+  margin-left: 3rem;
+}
+
+.buttonBack {
+  background-color: transparent; 
+  color: #6D2080; 
+  border: 2px solid #6D2080;
+  height: 2.5rem;
+  width: 8rem;
+  font-size: 1.3rem;
+  margin-right: 3rem;
+  cursor: pointer;
+}
+
+.voltar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width: 700px) {
+  .buttonBack {
+    width: 6rem;
+    font-size: 1.1rem;
+    height: 2.0rem;
+  }
+}
