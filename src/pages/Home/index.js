@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 import { connect } from 'react-redux';
 import { Link } from 'react-router-dom';
 import Header from '../../components/Header';
-import Loading from '../../components/Laoading';
 import './styles.css';
 import {
   fetchRegion,
@@ -74,7 +73,6 @@ class Home extends Component {
   render() {
     const { filter, region } = this.state;
     const { stateRegion } = this.props;
-    if (stateRegion.length < 1) return <Loading />;
     return (
       <div>
         <Header />
