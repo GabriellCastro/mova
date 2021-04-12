@@ -2,7 +2,7 @@
  <p align="center">A <strong>Mova</strong> me trouxe um desafio para fazer parte do time deles, construir um sistema de busca consumindo uma API de paises, o mais proveitoso desse desafio foi tratar multiplas opções de requisição e gerenciar estados com o REDUX.</p>  
  
 
-<a align="center" href="https://indigenastore.vercel.app/">MOVA AQUI</a>
+<a align="center" href="https://mova-woad.vercel.app/">MOVA AQUI</a>
 
 <img align="center" height="400" src="src/images/home.png">
 <img align="center" height="400" src="src/images/details.png">
