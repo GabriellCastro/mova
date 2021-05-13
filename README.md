@@ -14,6 +14,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [x] REACT
 - [x] REDUX
 - [x] API
+- [x] ROUTER
 - [x] FIGMA
 - [x] HTML5
 - [x] CSS3
